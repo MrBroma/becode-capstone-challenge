@@ -27,8 +27,8 @@ An advanced RTBF article analysis application using Natural Language Processing 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/rtbf-article-analyzer.git
-cd rtbf-article-analyzer
+git clone [https://github.com/your-username/rtbf-article-analyzer.git](https://github.com/MrBroma/becode-capstone-challenge.git)
+cd becode-capstone-challenge
 ```
 
 2. Create and activate a virtual environment
@@ -125,22 +125,7 @@ st.plotly_chart(DataVisualizer.create_sentiment_plot(df))
 
 ## 🤝 Contributing
 
-Contributions are welcome! To contribute:
-
-1. Fork the project
-2. Create your feature branch
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. Commit your changes
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. Push to the branch
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. Open a Pull Request
+No contribution project in progress
 
 ## 🔬 Technical Details
 
@@ -186,8 +171,7 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ## 👥 Authors
 
-- Your Name - *Initial work* - [@yourusername](https://github.com/yourusername)
-- Team Member - *NLP Improvements* - [@teammember](https://github.com/teammember)
+- Loic Rouaud - *Initial work* - [@MrBroma](https://github.com/MrBroma)
 
 ## 🙏 Acknowledgments
 
@@ -198,9 +182,8 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 ## 📞 Contact
 
 For any questions or suggestions:
-- Email: contact@rtbf-analyzer.com
-- Twitter: [@RTBFAnalyzer](https://twitter.com/RTBFAnalyzer)
-- Website: [www.rtbf-analyzer.com](http://www.rtbf-analyzer.com)
+- Email: loic.rouaud@gmail.com
+- Website: [https://www.rtbf.be/en-continu](https://www.rtbf.be/en-continu)
 
 ## 🚀 Future Improvements
 
