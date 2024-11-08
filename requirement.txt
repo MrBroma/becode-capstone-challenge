@@ -1,18 +1,40 @@
-# Data Processing
-pandas>=1.5.0
-numpy>=1.21.0
+# Base de données et manipulation de données
+pandas==2.1.3
+numpy==1.26.0
 
-# NLP and ML
-spacy>=3.5.0
-fr_core_news_lg @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_lg-3.5.0/fr_core_news_lg-3.5.0.tar.gz
-bertopic>=0.14.0
-sentence-transformers>=2.2.2
-scikit-learn>=1.0.2
+# NLP et traitement du texte
+spacy==3.7.2
+fr-core-news-lg @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_lg-3.7.0/fr_core_news_lg-3.7.0-py3-none-any.whl
+sentence-transformers==2.2.2
+bertopic==0.15.0
+scikit-learn==1.3.2
+umap-learn==0.5.4
+hdbscan==0.8.33
 
-# Visualization
-plotly>=5.13.0
-streamlit>=1.22.0
+# Interface utilisateur
+streamlit==1.28.2
+plotly==5.18.0
+altair==5.1.2
 
-# Utils
-tqdm>=4.65.0
-python-dateutil>=2.8.2
+# Gestion des dates et du temps
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# Utilitaires
+tqdm==4.66.1
+joblib==1.3.2
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# Compression et stockage
+gzip-stream==1.1.1
+
+# Gestion des environnements et dépendances
+pip>=23.3.1
+setuptools>=68.0.0
+wheel>=0.41.3
+
+# Tests et qualité du code
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
